@@ -10,7 +10,61 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }body {
+    font-family: "karla", sans-serif;
   }
+  .Header {
+    background-color: #fbd836;
+    border: 2px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  main {
+    padding: 36px;
+  }
+  .Logo-image {
+    margin-left: -29px;
+    width: 129px;
+    max-height: 100%;
+  }
+  .Header--title {
+    font-size: 1.75rem;
+    margin-right: auto;
+  }
+  .form {
+    display: grid;
+    grid-template: 40px 40px/1fr 1fr;
+    gap: 17px;
+  }
+  .form--button {
+    font-family: "karla", sans-serif;
+    grid-column: 1/-1;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #fbd836;
+    cursor: pointer;
+  }
+  .form--input {
+    border-radius: 5px;
+    border: 2px solid #d5d4d8;
+    text-indent: 5px;
+  }
+  .memeImage {
+    max-width: 100%;
+    max-height: 370px;
+    border: 2px solid #fbd836;
+  }
+  .memeImage--div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
 }
 
 .App-header {
